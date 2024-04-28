@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: radial-gradient(circle at center, #ffffff, rgb(219, 245, 236)); /* 渐变 */
+}
+.logo{
+    width: 100%;
+    text-align:center;
+    margin-top: 165px;
+    margin-bottom: 10px;
+}
+.search-box{
+    position: absolute;
+    top: 290px;
+    left: 50%;
+    transform: translate(-50%,50%);
+    background-color:rgb(211, 249, 237);
+    height: 30px;
+    border-radius:50px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex; 
+}
+.search-box:hover>.search-txt{
+    width: 300px;
+    padding: 0 6px;
+}
+.search-botton{
+    color: rgb(0, 229, 255);
+    float: left;
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+    border-radius: 100%;
+    background: rgb(211, 249, 237);
+
+}
+.search-txt{
+    border: none;
+    background: none;
+    outline: none;
+    float:right;
+    padding: 0;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    transition: 0.4s;
+    line-height: 40px;
+    width: 0px;
+}
+.search-mic{
+    float:right;
+    margin-right:10px;
+}
+.quicksearch{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    width: 100vw;
+}
